@@ -13,7 +13,7 @@ const cors = require("cors");
 
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace with your frontend's domain
+  origin: "https://flora-frontend.onrender.com", // Replace with your frontend's domain
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable cookies and authentication headers
 };
