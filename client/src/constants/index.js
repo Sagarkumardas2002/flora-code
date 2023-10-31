@@ -281,7 +281,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: './jobit.png,
+    image: '../assets/jobit.png',
     source_code_link: "https://chat.openai.com/",
   },
   {
