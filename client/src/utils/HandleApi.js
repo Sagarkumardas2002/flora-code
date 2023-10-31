@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:5050";
+const baseUrl = "https://flora-backend.onrender.com";
 
 const getAllFeedback = (setFeedBack) => {
     axios
