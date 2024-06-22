@@ -22,23 +22,24 @@ const Hero = () => {
             We care for your health <br className='sm:block hidden' />
             We hava Specialist herbs detection tech
           </p>
-
-        </div>
-
-      </div>
-
-      <div class="flex flex-col justify-end items-end h-screen ">
-        
-
-        <div class="text-center mt-4 flex justify-center items-center bg-[#38ef7d] text-[20px] text-black-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12 ">
-          <a href="https://floravision.streamlit.app">CLICK HERE</a>
         </div>
       </div>
 
+    <div className="flex flex-col justify-end items-end h-screen">
+        <div className="text-center mt-4 flex justify-center items-center bg-[#38ef7d] text-[20px] text-black-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12">
+          <button
+            onClick={() => window.open("https://floravision.streamlit.app", "_blank")}
+            className="w-full h-full"
+          >
+            CLICK HERE
+          </button>
+        </div>
+      </div>
 
 
 
-      <ComputersCanvas />
+
+{/*       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -56,7 +57,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div>
+      </div> */}
     </section>
   );
 };
