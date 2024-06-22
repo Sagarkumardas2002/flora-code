@@ -29,13 +29,13 @@ const Hero = () => {
 
       <div class="flex flex-col justify-end items-end h-screen ">
         <div class="bg-[#008000] p-1 md:mx-20 md:my-200 rounded-lg transform -translate-y-12" >
-          {/* <img src="../../imag/aress.jpeg" alt="refresh your page" width="200px" class="rounded-lg" /> */}
+          <img src="../../imag/aress.jpeg" alt="refresh your page" width="200px" class="rounded-lg" />
           <a href="https://floravision.streamlit.app" target="_blank" class="login" title="Login"><img src="../../imag/aress.jpeg" width="200px" class="rounded-lg" /></a>
         </div>
 
-        {/* <div class="text-center mt-4 flex justify-center items-center bg-[#38ef7d] text-[20px] text-black-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12 ">
+        <div class="text-center mt-4 flex justify-center items-center bg-[#38ef7d] text-[20px] text-black-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12 ">
           <a href="https://floravision.streamlit.app">CLICK HERE</a>
-        </div> */}
+        </div>
       </div>
 
 
