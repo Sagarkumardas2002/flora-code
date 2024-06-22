@@ -26,7 +26,7 @@ const Hero = () => {
       </div>
 
     <div className="flex flex-col justify-end items-end h-screen">
-        <div className="text-center mt-4 flex justify-center items-center bg-[#38ef7d] text-[20px] text-black-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12">
+        <div className="text-center mt-4 flex justify-center items-center bg-danger text-[20px] text-white-100 text-lg p-3 rounded-lg font-bold w-48 mx-4 md:w-200 md:mx-20 transform -translate-y-12">
           <button
             onClick={() => window.open("https://floravision.streamlit.app", "_blank")}
             className="w-full h-full"
