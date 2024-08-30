@@ -4,11 +4,6 @@ const bcrypt = require("bcrypt");
 // var app = express();  
 
 //REGISTER
-// const cors = require("cors");
-
-// app.options("*", cors({ origin: 'http://localhost:8000', optionsSuccessStatus: 200 }));
-
-// app.use(cors({ origin: "http://localhost:8000", optionsSuccessStatus: 200 }));
 router.post("/register", async (req, res) => {
   try {
     // const salt = await bcrypt.genSalt(10);
